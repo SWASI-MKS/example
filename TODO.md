@@ -1,0 +1,6 @@
+- [x] Edit manage.py to change 'backend.settings' to 'finance_tracker.settings'
+- [x] Edit finance_tracker/wsgi.py to change 'backend.settings' to 'finance_tracker.settings'
+- [x] Edit finance_tracker/asgi.py to change 'backend.settings' to 'finance_tracker.settings'
+- [x] Search the project for the word 'backend' to ensure no other references remain
+- [x] Commit the changes with message "Fix Django settings module name after renaming backend"
+- [x] Push the changes to the repository

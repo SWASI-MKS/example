@@ -3,7 +3,7 @@ from celery import Celery
 from celery.schedules import crontab
 
 # Set default Django settings module
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'finance_tracker.settings')
 
 # Create Celery app
 app = Celery('finance-tracker')
